@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import warehouseReducer from './warehouse/warehouseSlice';
+import warehouseReducer from './Warehouse/warehouseSlice';
 
 const store = configureStore({
   reducer: {
