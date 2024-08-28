@@ -1,0 +1,12 @@
+.edit-warehouse-form label {
+    margin-top: 10px;
+  }
+  
+  .edit-warehouse-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

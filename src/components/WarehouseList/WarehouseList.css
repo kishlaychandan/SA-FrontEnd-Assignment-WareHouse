@@ -1,0 +1,67 @@
+/* WarehouseList.css */
+.warehouse-list-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .filter label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .filter select,
+  .filter input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .warehouse-list {
+    margin-top: 20px;
+  }
+  
+  .warehouse-item {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .warehouse-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .warehouse-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .warehouse-item p {
+    margin: 5px 0;
+  }
+  
